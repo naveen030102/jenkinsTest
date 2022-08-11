@@ -16,6 +16,7 @@ agent any
             steps
             {
            sh """
+           ls
            python pyfile.py
            """
             }
