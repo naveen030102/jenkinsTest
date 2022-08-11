@@ -11,13 +11,25 @@ agent any
             }
         }
         
-        stage("pulling from git")
+        stage("running python file")
         {
             steps
             {
            sh """
            ls
            python pyfile.py
+           """
+            }
+        }
+        
+        
+         stage("sh file testng")
+        {
+            steps
+            {
+           sh """
+           ls
+           ./run.sh
            """
             }
         }
