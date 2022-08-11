@@ -7,7 +7,7 @@ agent any
         {
             steps
             {
-            '''
+           sh '''
             whoami
             pwd
             '''
