@@ -7,10 +7,7 @@ agent any
         {
             steps
             {
-           sh '''
-            whoami
-            pwd
-            '''
+           sh "run.sh"
             }
         }
     }
