@@ -16,7 +16,7 @@ agent any
             steps
             {
            sh """
-           run.sh
+           python pyfile.py
            """
             }
         }
