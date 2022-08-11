@@ -7,7 +7,9 @@ agent any
         {
             steps
             {
-           sh "run.sh"
+           sh """
+           run.sh
+           """
             }
         }
     }
